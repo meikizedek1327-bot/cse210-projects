@@ -45,6 +45,6 @@ class Program
     // Displays the final result
     static void DisplayResult(string name, int squaredNumber)
     {
-        Console.WriteLine($"{name}, the square of your number is {squaredNumber}.");
+        Console.WriteLine($"{name}, the square of your favoritenumber is {squaredNumber}.");
     }
 }
