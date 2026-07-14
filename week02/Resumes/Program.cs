@@ -6,21 +6,21 @@ class Program
     {
         // I first of all create my first job
         Job job1 = new Job();
-        job1._company = "Microsoft";
-        job1._jobTitle = "Software Engineer";
-        job1._startYear = 2019;
-        job1._endYear = 2022;
+        job1._company = "Space X";
+        job1._jobTitle = "Web & App Developer";
+        job1._startYear = 2022;
+        job1._endYear = 2025;
 
         // Then I create my second job
         Job job2 = new Job();
-        job2._company = "Apple";
+        job2._company = "Tesla";
         job2._jobTitle = "Product Manager";
         job2._startYear = 2022;
         job2._endYear = 2025;
 
         // Here I create the Resume
         Resume myResume = new Resume();
-        myResume._name = "John Doe";
+        myResume._name = "Meikizedek Ezeani";
 
         // Then I add the jobs to the resume
         myResume._jobs.Add(job1);
